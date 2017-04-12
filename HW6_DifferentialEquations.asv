@@ -1,0 +1,196 @@
+%% part a Satelite problem
+clear; clc; format compact; close all;
+
+
+f = @(t,y) [ y(2);
+             -y(1)/(sqrt(y(1)^2+y(3)^2)^3);
+             y(4)
+             -y(3)/(sqrt(y(1)^2+y(3)^2)^3)];
+      
+IC = [4;0;0;.5];
+tmin = 0;
+tmax = 50;
+numpts = 20000;
+
+[t,y] = MyGeneralEuler(f,tmin,tmax,numpts,IC);
+
+tminRK = 0;
+tmaxRK = 50;
+numpts_RK = 200 ;
+[t2,y2] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC);
+
+plot(y(1,:),y(3,:))
+axis('equal')
+xlabel('xposition')
+ylabel('yposition')
+title('Euler Solver, h = .0025')
+figure 
+plot(y2(1,:),y2(3,:),'r*')
+axis('equal')
+xlabel('xposition')
+ylabel('yposition')
+title('RK Solver, h = .25')
+
+%% different initial values for W Satelite problem
+clear; clc; close all; format compact
+
+f = @(t,y) [ y(2);
+             -y(1)/(sqrt(y(1)^2+y(3)^2)^3);
+             y(4)
+             -y(3)/(sqrt(y(1)^2+y(3)^2)^3)];
+   
+         % initial w = .5 h = .25, tmax = 50
+IC1 = [4;0;0;.5];
+tminRK = 0;
+tmaxRK = 50;
+numpts_RK = 200 ;
+[t1,y1] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC1);
+plot(y1(1,:),y1(3,:))
+title('w(0) = .5, h = .25')
+xlabel('x position')
+ylabel('y position')
+figure
+        % initial w = .6 h = .5 tmax = 150
+IC2 = [4;0;0;.6];
+tminRK = 0;
+tmaxRK = 150;
+numpts_RK = 300 ;
+[t2,y2] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC2);
+plot(y2(1,:),y2(3,:))
+title('w(0) = .6, h = .5')
+xlabel('x position')
+ylabel('y position')
+figure
+        % initial = .8 h = .5, tmax = 200
+IC3 = [4;0;0;.8];
+tminRK = 0;
+tmaxRK = 200;
+numpts_RK = 400 ;
+[t3,y3] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC3);
+plot(y3(1,:),y3(3,:))
+title('w(0) = .8, h = .5')
+xlabel('x position')
+ylabel('y position')
+figure
+        % initial = .4 h = .25, tmax = 35
+IC4 = [4;0;0;.4];
+tminRK = 0;
+tmaxRK = 35;
+numpts_RK = 140 ;
+[t4,y4] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC4);
+plot(y4(1,:),y4(3,:))
+title('w(0) = .4, h = .25')
+xlabel('x position')
+ylabel('y position')
+figure
+        % initial = .2 h = .25, tmax = 35
+IC5 = [4;0;0;.2];
+tminRK = 0;
+tmaxRK = 30;
+numpts_RK = 120 ;
+[t5,y5] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC5);
+plot(y5(1,:),y5(3,:))
+title('w(0) = .2, h = .25')
+xlabel('x position')
+ylabel('y position')
+figure
+        % initial = .2 h = .05, tmax = 35
+IC6 = [4;0;0;.2];
+tminRK = 0;
+tmaxRK = 30;
+numpts_RK = 600 ;
+[t6,y6] = MyGeneralRK(f,tminRK,tmaxRK,numpts_RK,IC6);
+plot(y6(1,:),y6(3,:))
+title('w(0) = .2, h = .05')
+xlabel('x position')
+ylabel('y position')
+
+
+%% Romeo and Juliet
+clear; clc; format compact; close all;
+
+alpha = .2;
+beta = .8;
+gamma = .1;
+tmin = 0;
+tmax = 60;
+num_pts = 240;
+
+f = @(t,y) [-alpha * y(2);
+            beta*y(1) - gamma*y(2)^2];
+IC = [2;0];
+        
+[t,y] = MyGeneralRK(f,tmin,tmax,num_pts,IC);
+plot(y(1,:),y(2,:))
+title('Romeo and Juliet Love')
+xlabel('Romeo Love')
+ylabel('Juliet Love')
+figure
+
+plot(t,y(1,:))
+xlabel('Time')
+ylabel('Amount of Love')
+hold on
+
+plot(t,y(2,:))
+xlabel('Time')
+ylabel('Amount of Love')
+legend('Romeo','Juliet')
+
+%% Juliet indefference for gamma
+clear; clc; format compact; close all;
+
+alpha = .2;
+beta = .8;
+tmin = 0;
+tmax = 60;
+num_pts = 360;
+
+counter = 1;
+gamma = 0;
+indifference = 5;
+indifference2 = 5;
+while abs(indifference(2,1)) > .001
+    gamma = gamma + .0001;
+        f = @(t,y) [-alpha * y(2);
+            beta*y(1) - gamma*y(2)^2];
+    IC = [2;0];
+    [t,y] = MyGeneralRK(f,tmin,tmax,num_pts,IC);
+    
+    for col = 1:length(t)
+       if t(1,col) < 30.1 & t(1,col) > 29.9
+           t30 = t(1,col);
+           index = col;
+           counter = counter + 1;
+       end
+    end
+    
+    indifference = y(2,index);
+    indifference2 = y(2,index + 1);
+ 
+    
+end
+gamma
+indifference
+indifference2
+
+%% trying gamma of .2539 from problem above
+clear; clc; format compact; close all;
+
+alpha = .2;
+beta = .8;
+tmin = 0;
+tmax = 60;
+num_pts = 360;
+gamma= .2539;
+f = @(t,y) [-alpha * y(2);
+            beta*y(1) - gamma*y(2)^2];
+IC = [2;0];
+[t,y] = MyGeneralRK(f,tmin,tmax,num_pts,IC);
+plot(t,y(2,:))
+xlabel('Time')
+ylabel('Juliet Love')
+
+
+
+

@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:u1="urn:schemas-microsoft-com:office"
+ xmlns:u2="urn:schemas-microsoft-com:excel"
+ xmlns:u3="urn:schemas-microsoft-com:spreadsheet">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Global Health Observatory</Author>
+  <LastAuthor>Allen, Dylan</LastAuthor>
+  <Created>2017-02-01T04:08:55Z</Created>
+  <Company>World Health Organization</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7620</WindowHeight>
+  <WindowWidth>16815</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Data">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Header">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s62">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="Fixed"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Data">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="131" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Index="3" ss:Width="380.25"/>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="1" ss:StyleID="s63"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1"><Data
+      ss:Type="String">Infant mortality rate (probability of dying between birth and age 1 per 1000 live births)</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeDown="25" ss:StyleID="s63"><Data ss:Type="String">Low-income</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">53.1</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">54.6</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">56.3</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">58.1</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">60.3</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">63</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">65</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">67.5</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">70.2</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">73.2</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">76.2</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">79.400000000000006</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">82.7</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">86.1</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">89.4</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">92.6</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">95.5</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">98</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">100.3</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">102.3</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">104.4</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">106.4</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">108.2</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">110</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">111.7</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">113.3</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeDown="25" ss:StyleID="s63"><Data ss:Type="String">Lower-middle-income</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">40.0 [37.7-43.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">41.2 [39.2-43.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">42.7 [40.8-45.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">44.2 [42.5-46.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">45.8 [44.3-47.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">47.4 [46.0-49.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">49.0 [47.8-50.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50.7 [49.6-52.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">52.2 [51.2-53.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">54.0 [52.9-55.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">55.7 [54.7-56.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">57.7 [56.7-58.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">59.6 [58.5-60.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">61.6 [60.6-62.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">63.7 [62.6-64.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">65.7 [64.6-66.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">67.6 [66.5-68.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">69.5 [68.3-70.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">71.2 [70.0-72.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">72.9 [71.7-74.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">74.5 [73.3-75.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">76.2 [75.0-77.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">77.8 [76.6-79.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">79.6 [78.3-80.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">81.3 [80.0-82.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">83.1 [81.8-84.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeDown="25" ss:StyleID="s63"><Data ss:Type="String">Upper-middle-income</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">15.2 [13.9-17.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">15.7 [14.5-17.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">16.4 [15.3-18.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">17.2 [16.2-18.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">18.1 [17.1-19.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">18.9 [18.0-20.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">19.9 [18.9-21.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">20.9 [20.0-21.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">21.8 [20.9-22.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">22.8 [22.0-23.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">24.0 [23.2-24.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">25.4 [24.6-26.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">26.8 [26.0-27.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">28.3 [27.5-29.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">29.9 [29.0-30.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">31.4 [30.5-32.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">32.8 [32.0-33.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">34.2 [33.3-35.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">35.5 [34.7-36.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">36.9 [35.9-37.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">38.1 [37.1-39.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">39.3 [38.2-40.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">40.5 [39.3-41.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">41.6 [40.1-43.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">42.4 [40.8-44.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">43.1 [41.3-45.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeDown="25" ss:StyleID="s63"><Data ss:Type="String">High-income</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5.8 [5.5-6.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.0 [5.7-6.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.1 [5.9-6.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.3 [6.0-6.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.4 [6.2-6.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.6 [6.4-6.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.7 [6.6-7.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6.9 [6.8-7.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7.2 [7.0-7.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7.4 [7.3-7.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7.7 [7.6-7.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8.0 [7.9-8.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8.2 [8.1-8.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8.5 [8.4-8.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8.8 [8.7-8.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9.0 [8.9-9.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9.2 [9.1-9.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9.3 [9.2-9.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9.5 [9.3-9.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9.7 [9.6-9.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10.1 [9.9-10.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10.6 [10.4-10.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11.2 [11.0-11.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11.9 [11.6-12.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">12.5 [12.3-12.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">13.0 [12.8-13.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeDown="25" ss:StyleID="s63"><Data ss:Type="String">Global</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">31.7 [30.6-33.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">32.6 [31.6-34.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">33.7 [32.8-35.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">34.9 [34.0-36.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">36.2 [35.4-37.3]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">37.5 [36.8-38.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">38.7 [38.1-39.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">40.1 [39.4-40.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">41.4 [40.8-42.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">42.8 [42.2-43.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">44.3 [43.7-45.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">46.0 [45.4-46.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">47.7 [47.1-48.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">49.5 [49.0-50.2]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">51.4 [50.8-52.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">53.1 [52.5-53.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">54.8 [54.2-55.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">56.4 [55.8-57.1]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">57.8 [57.1-58.6]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">59.0 [58.3-59.8]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">60.0 [59.3-60.7]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">60.6 [60.0-61.4]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">61.1 [60.5-61.9]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">61.6 [60.9-62.5]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">62.1 [61.3-63.0]</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">62.8 [62.0-63.8]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R1C1:R27C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Index="2" ss:Width="380.25"/>
+   <Row>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Infant mortality rate (probability of dying between birth and age 1 per 1000 live births)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">53.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">54.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">56.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">58.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">60.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">63</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">67.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">70.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">73.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">76.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">79.400000000000006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">82.7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">86.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">89.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">92.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1999</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">95.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1998</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1997</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">100.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1996</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">102.3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1995</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">104.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1994</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">106.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1993</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">108.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1992</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">110</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1991</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">111.7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">113.3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
